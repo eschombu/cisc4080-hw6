@@ -1,0 +1,83 @@
+Daytona_Beach_FL: Jacksonville_FL 89.6 Tampa_FL 140.0 Miami_FL 261.3
+Boise_ID: Seattle_WA 503.7 Butte_MT 419.3 Portland_OR 429.6 Salt_Lake_City_UT 339.8
+Cincinnati_OH: Columbus_OH 106.7 Lexington_KY 83.0 Indianapolis_IN 108.3 Dayton_OH 54.3 Louisville_KY 99.4 Pittsburgh_PA 288.2 Charleston_WV 197.9
+San_Antonio_TX: Houston_TX 197.3 El_Paso_TX 552.1 Dallas_TX 273.7
+Fargo_ND: Billings_MT 609.3 Sioux_Falls_SD 244.0 Minneapolis_MN 235.3
+Sacramento_CA: San_Francisco_CA 87.9 Portland_OR 580.6 Salt_Lake_City_UT 649.4 Los_Angeles_CA 386.0
+Indianapolis_IN: St_Louis_MO 242.4 Cincinnati_OH 112.3 Chicago_IL 181.5 Springfield_IL 212.3 Detroit_MI 286.5 Dayton_OH 116.3 Davenport_IA 310.3 Louisville_KY 114.5
+Birmingham_AL: Nashville_TN 192.5 Chattanooga_TN 146.9 Meridian_MS 148.2 Atlanta_GA 146.5 Montgomery_AL 93.4
+Philadelphia_PA: Baltimore_MD 104.4 New_York_NY 98.6 Harrisburg 106.7
+Madison_WI: Chicago_IL 147.4 Albert_Lea_MN 265.1 Milwaukee_WI 80.5 Minneapolis_MN 273.1
+Salt_Lake_City_UT: Butte_MT 416.0 Boise_ID 344.9 Las_Vegas 421.2 Sacramento_CA 649.1 Cheyenne_WY 440.3
+Albany_NY: Scranton_PA 180.4 Syracuse_NY 145.3 New_York_NY 157.8 Springfield_MA 87.6
+Pheonix_AZ: San_Bernardino_CA 319.7 San_Diego_CA 354.6 Flagstaff_AZ 144.5 Tucson_AZ 116.2
+Cheyenne_WY: Denver_CO 101.6 Billings_MT 455.3 Salt_Lake_City_UT 439.8 Omaha_NB 494.1
+Montgomery_AL: Birmingham_AL 92.7 Mobile_AL 168.3 Atlanta_GA 160.0
+Savannah_GA: Macon_GA 165.8 Columbia_SC 158.5 Jacksonville_FL 139.3 Florence_SC 178.1
+Knoxville_TN: Nashville_TN 180.1 Columbia_SC 263.0 Chattanooga_TN 112.1 Lexington_KY 172.4 Atlanta_GA 213.9 Wytheville_VA 181.5 Charlotte_NC 230.6
+Denver_CO: Albuquerque_NM 449.5 Wichita_KS 519.6 Cheyenne_WY 101.2 Las_Vegas 749.0 Omaha_NB 536.8 Kansas_City_MO 604.2
+Milwaukee_WI: Chicago_IL 92.6 Madison_WI 79.4
+Houston_TX: Baton_Rouge_LA 271.8 San_Antonio_TX 197.1 Dallas_TX 239.1
+Miami_FL: Daytona_Beach_FL 262.0
+Seattle_WA: Butte_MT 592.7 Boise_ID 495.4 Portland_OR 173.9
+Little_Rock_AR: Oklahoma_City_OK 339.1 Memphis_TN 137.4 Dallas_TX 319.2
+Syracuse_NY: Albany_NY 147.0 Cleveland_OH 335.2 Pittsburgh_PA 361.0 Scranton_PA 130.0
+Cleveland_OH: Syracuse_NY 334.8 Columbus_OH 141.8 Scranton_PA 376.0 Toledo_OH 115.8 Pittsburgh_PA 134.1 Charleston_WV 251.3
+Meridian_MS: Baton_Rouge_LA 255.0 Mobile_AL 133.3 Jackson_MS 92.2 Birmingham_AL 146.9
+Scranton_PA: Albany_NY 179.9 Syracuse_NY 130.5 New_York_NY 128.1 Cleveland_OH 374.4 Harrisburg 121.2
+Mobile_AL: Baton_Rouge_LA 201.1 Lake_City_FL 345.6 Meridian_MS 133.3 Jackson_MS 188.0 Montgomery_AL 168.4
+Barstow_CA: San_Bernardino_CA 70.6 Las_Vegas 158.1 Flagstaff_AZ 352.5
+Tucson_AZ: Albuquerque_NM 450.9 Pheonix_AZ 115.9 San_Diego_CA 410.1 El_Paso_TX 317.6
+Minneapolis_MN: Madison_WI 268.5 Fargo_ND 235.3 Albert_Lea_MN 96.7
+Nashville_TN: St_Louis_MO 309.1 Chattanooga_TN 133.1 Knoxville_TN 180.1 Memphis_TN 212.0 Birmingham_AL 192.3 Louisville_KY 175.5
+Albuquerque_NM: Tucson_AZ 449.3 Denver_CO 448.6 Oklahoma_City_OK 541.3 Flagstaff_AZ 325.0 El_Paso_TX 267.9
+Omaha_NB: Des_Moines_IA 138.4 Denver_CO 536.9 Cheyenne_WY 493.8 Sioux_Falls_SD 185.2 Kansas_City_MO 188.2
+Portland_OR: Seattle_WA 173.0 Boise_ID 429.0 Sacramento_CA 581.0
+Springfield_IL: St_Louis_MO 96.2 Chicago_IL 202.4 Davenport_IA 171.4 Indianapolis_IN 212.8
+San_Bernardino_CA: Pheonix_AZ 321.1 Barstow_CA 70.3 Los_Angeles_CA 59.7
+Chattanooga_TN: Nashville_TN 134.6 Birmingham_AL 147.6 Knoxville_TN 111.6 Atlanta_GA 117.5
+Tampa_FL: Daytona_Beach_FL 139.2 Lake_City_FL 171.6
+Jacksonville_FL: Daytona_Beach_FL 95.0 Lake_City_FL 61.2 Savannah_GA 138.7
+Dallas_TX: Little_Rock_AR 319.5 Oklahoma_City_OK 206.1 San_Antonio_TX 273.9 Jackson_MS 405.7 El_Paso_TX 634.7 Houston_TX 239.3
+Columbia_SC: Florence_SC 82.7 Knoxville_TN 263.5 Savannah_GA 162.4 Atlanta_GA 214.6 Charlotte_NC 92.9 Richmond_VA 370.7
+Des_Moines_IA: Davenport_IA 168.0 Kansas_City_MO 193.8 Omaha_NB 139.3 Albert_Lea_MN 148.7
+San_Diego_CA: Pheonix_AZ 355.0 Tucson_AZ 409.8 Los_Angeles_CA 120.2
+Billings_MT: Butte_MT 227.9 Cheyenne_WY 452.8 Sioux_Falls_SD 660.0 Fargo_ND 607.8
+Lake_City_FL: Macon_GA 210.8 Tampa_FL 171.6 Jacksonville_FL 64.3 Mobile_AL 345.7
+Columbus_OH: Dayton_OH 71.7 Cincinnati_OH 106.6 Cleveland_OH 143.9 Charleston_WV 163.0 Pittsburgh_PA 184.8
+Louisville_KY: St_Louis_MO 259.9 Nashville_TN 175.6 Cincinnati_OH 99.5 Lexington_KY 78.1 Indianapolis_IN 113.6
+Baltimore_MD: Philadelphia_PA 103.2 Richmond_VA 154.0 Pittsburgh_PA 247.4 Wytheville_VA 343.0
+Providence_RI: Boston_MA 50.2 New_York_NY 181.0
+Los_Angeles_CA: San_Bernardino_CA 59.7 San_Diego_CA 120.3 Flagstaff_AZ 464.7 Sacramento_CA 384.2
+Harrisburg: Scranton_PA 121.0 Philadelphia_PA 106.8 New_York_NY 170.6 Wytheville_VA 359.9 Pittsburgh_PA 203.4
+Chicago_IL: Detroit_MI 282.7 Toledo_OH 244.7 Springfield_IL 201.7 Indianapolis_IN 181.9 Davenport_IA 175.2 Milwaukee_WI 92.2 Madison_WI 147.4
+Wichita_KS: Denver_CO 520.3 Kansas_City_MO 195.4 Oklahoma_City_OK 160.7
+Charleston_WV: Cincinnati_OH 198.4 Cleveland_OH 251.6 Lexington_KY 176.1 Wytheville_VA 128.3 Columbus_OH 161.8 Richmond_VA 316.7 Pittsburgh_PA 227.3
+El_Paso_TX: Albuquerque_NM 267.9 San_Antonio_TX 551.1 Tucson_AZ 316.2 Dallas_TX 635.0
+Albert_Lea_MN: Des_Moines_IA 148.2 Madison_WI 260.5 Sioux_Falls_SD 177.2 Minneapolis_MN 96.9
+Boston_MA: Providence_RI 50.9 Springfield_MA 90.9
+Wytheville_VA: Knoxville_TN 181.2 Charlotte_NC 138.1 Harrisburg 359.7 Richmond_VA 253.9 Charleston_WV 128.5 Baltimore_MD 343.2
+New_York_NY: Providence_RI 181.1 Albany_NY 152.5 Springfield_MA 143.1 Scranton_PA 121.3 Philadelphia_PA 98.3 Harrisburg 170.9
+Richmond_VA: Columbia_SC 371.5 Florence_SC 293.0 Wytheville_VA 253.8 Charlotte_NC 293.2 Charleston_WV 316.4 Baltimore_MD 154.1
+Memphis_TN: Little_Rock_AR 137.3 St_Louis_MO 283.4 Jackson_MS 209.2 Nashville_TN 211.9
+Macon_GA: Lake_City_FL 210.9 Savannah_GA 165.4 Atlanta_GA 83.7
+Davenport_IA: Des_Moines_IA 165.6 Chicago_IL 175.2 Springfield_IL 174.2 Indianapolis_IN 313.8
+Oklahoma_City_OK: St_Louis_MO 498.9 Albuquerque_NM 541.4 Little_Rock_AR 338.6 Wichita_KS 161.3 Dallas_TX 206.7
+Butte_MT: Seattle_WA 592.6 Boise_ID 424.1 Billings_MT 225.8 Salt_Lake_City_UT 416.4
+Las_Vegas: Denver_CO 748.2 Barstow_CA 157.7 Salt_Lake_City_UT 420.7
+Flagstaff_AZ: Albuquerque_NM 325.3 Pheonix_AZ 144.7 Barstow_CA 351.7 Los_Angeles_CA 464.4
+Detroit_MI: Chicago_IL 281.7 Toledo_OH 69.3 Indianapolis_IN 299.2
+Baton_Rouge_LA: Mobile_AL 199.2 Houston_TX 272.1 Jackson_MS 174.6 Meridian_MS 253.7
+Toledo_OH: Dayton_OH 150.2 Chicago_IL 244.7 Cleveland_OH 117.5 Detroit_MI 58.8
+Pittsburgh_PA: Cincinnati_OH 289.0 Syracuse_NY 360.1 Cleveland_OH 133.0 Baltimore_MD 248.3 Columbus_OH 184.9 Charleston_WV 227.9 Harrisburg 203.5
+Springfield_MA: Boston_MA 91.2 Albany_NY 85.9 New_York_NY 141.7
+Sioux_Falls_SD: Billings_MT 662.2 Fargo_ND 243.9 Omaha_NB 185.3 Albert_Lea_MN 176.5
+Jackson_MS: Baton_Rouge_LA 174.2 Mobile_AL 191.4 Meridian_MS 92.5 Memphis_TN 210.0 Dallas_TX 402.5
+St_Louis_MO: Nashville_TN 309.5 Oklahoma_City_OK 498.3 Kansas_City_MO 247.7 Springfield_IL 96.8 Indianapolis_IN 242.8 Louisville_KY 260.7 Memphis_TN 283.1
+Florence_SC: Columbia_SC 83.0 Richmond_VA 292.2 Savannah_GA 179.1
+Kansas_City_MO: St_Louis_MO 247.6 Des_Moines_IA 193.3 Denver_CO 604.2 Wichita_KS 198.9 Omaha_NB 189.3
+Atlanta_GA: Columbia_SC 213.9 Macon_GA 83.8 Knoxville_TN 213.4 Chattanooga_TN 117.8 Montgomery_AL 160.5 Birmingham_AL 146.8 Charlotte_NC 244.1
+Lexington_KY: Cincinnati_OH 82.8 Knoxville_TN 172.2 Charleston_WV 175.2 Louisville_KY 78.2
+San_Francisco_CA: Sacramento_CA 88.2
+Charlotte_NC: Columbia_SC 92.8 Richmond_VA 291.0 Wytheville_VA 138.5 Knoxville_TN 229.9 Atlanta_GA 244.2
+Dayton_OH: Cincinnati_OH 53.9 Columbus_OH 71.1 Toledo_OH 150.2 Indianapolis_IN 116.9
