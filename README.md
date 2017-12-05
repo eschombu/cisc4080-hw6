@@ -38,7 +38,7 @@
     *   New York to Miami
     *   New York to Seattle
     *   New York to San Francisco
-    *   New York to Bostong
+    *   New York to Boston
 
     As in any problem you are trying to solve, it may help in your
     code development to create a smaller graph for testing purposes.
