@@ -70,7 +70,7 @@ vector<string> greedy_edge_cover(Graph g) {
     return covering_vertices;
 }
 
-vector<string> random_edge_cover(Graph g) {
+vector<string> random_edge_cover(Graph g, unsigned int seed) {
     /* Randomly pick a subset of vertices whose edges cover all vertices in the
     graph. Returns a vector of these vertices' labels. */
 
@@ -78,7 +78,7 @@ vector<string> random_edge_cover(Graph g) {
     /******* COMPLETE CODE HERE *******/
 
     // Set random number generator seed to current time
-    srand(time(NULL));
+    srand(seed);
 
     // Track uncovered vertices with boolean map and integer counter
     map<string, bool> vertex_cover;  // set values to true when vertex covered
@@ -87,43 +87,48 @@ vector<string> random_edge_cover(Graph g) {
     // for quickly checking if vertex in this subset (rather than searching
     // through covering_vertices to check if a given vertex is part of the
     // covering subset)
-    vector<string> covering_vertices;         // holds covering vertices subset
-    vector<string> not_covering_vertices;     // holds vertices not in
-                                              // covering_vertices set
-    map<string, bool> covering_vertex_status; // set to true when vertex
-                                              // included in covering_vertices
+    vector<string> covering_vertices;     // holds covering vertices subset
+    vector<string> not_covered_vertices;  // holds vertices not yet covered
+
     // Initialize the above indicator maps
     for (int i=0; i < g.n_vertices(); i++){
         vertex_cover.insert(pair<string, bool> (g.vertices[i], false));
-        covering_vertex_status.insert(
-            pair<string, bool> (g.vertices[i], false));
-        not_covering_vertices.push_back(g.vertices[i]);
+        not_covered_vertices.push_back(g.vertices[i]);
     }
-    int n_uncovered = g.n_vertices();
 
     // Pick random new vertices to add until all covered
-    while (n_uncovered > 0) {
-        int rand_next_idx = rand() % not_covering_vertices.size();
-        string rand_next = not_covering_vertices[rand_next_idx];
-        not_covering_vertices.erase(
-            not_covering_vertices.begin() + rand_next_idx);
+    while (not_covered_vertices.size() > 0) {
+        int rand_next_idx = rand() % not_covered_vertices.size();
+        string rand_next = not_covered_vertices[rand_next_idx];
         covering_vertices.push_back(rand_next);
         
         // Cover this newly picked vertex
         if (vertex_cover[rand_next] == false) {
             vertex_cover[rand_next] = true;
-            n_uncovered--;
         }
         // Cover its connected vertices
         for (int j=0; j < g.n_edges(rand_next); j++) {
-            if (vertex_cover[g.edges[rand_next][j]] == false) {
+            if (!vertex_cover[g.edges[rand_next][j]]) {
                 vertex_cover[g.edges[rand_next][j]] = true;
-                n_uncovered--;
+                
             }
         }
+        // Remove now-covered vertices from not_covered_vertices
+        vector<string> still_not_covered;
+        for (int i=0; i < not_covered_vertices.size(); i++) {
+            if (!vertex_cover[not_covered_vertices[i]]) {
+                still_not_covered.push_back(not_covered_vertices[i]);
+            }
+        }
+        not_covered_vertices = still_not_covered;
     }
 
     return covering_vertices;
+}
+
+vector<string> random_edge_cover(Graph g) {
+    /* Use time-based seed for random_edge_cover(). */
+    return random_edge_cover(g, time(NULL));
 }
 
 vector<string> optimal_edge_cover(
