@@ -225,7 +225,7 @@ int main(int argc, char* argv[]) {
     // Use encoding tree to build a codeword dictionary
     map<string, string> code = get_code_map(tree, pixel_values);
     huffman::print_code(pixel_values, code, pixel_val_freqs);
-    huffman::print_tree(tree, code); // for debugging
+    // huffman::print_tree(tree, code); // for debugging
 
     // Assess encoding efficiency
     double basic_length = basic_code_length(pixel_val_freqs);
