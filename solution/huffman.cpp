@@ -25,7 +25,9 @@ matrix<string> reduce_img_mat(matrix<double> & original, int nlevels) {
     // allowed "level".
     for (int i=0; i < dim[0]; i++) {
         for (int j=0; j < dim[1]; j++) {
-            int pixel_val = original[i][j] * (nlevels - 1);
+            int pixel_val = original[i][j] * nlevels;
+            if (pixel_val == nlevels)
+                pixel_val--;
             out[i][j] = img::int2string(pixel_val);
         }
     }
@@ -138,6 +140,7 @@ double basic_code_length(map<string, double> & frequencies) {
     /******* COMPLETE CODE HERE *******/
 
     double basic_code_bits = ceil(log2(alphabet.size()));
+    cout << "Basic bits: " << basic_code_bits << endl;
 
     // Sum all frequencies
     // (equals basic_code_bits if frequencies are fractional)
@@ -193,6 +196,8 @@ int main(int argc, char* argv[]) {
         nlevels = atoi(argv[1]);
     }
     matrix<string> img_mat = reduce_img_mat(img_mat_0, nlevels);
+    cout << "Image size: " << img_mat.nrow() << "x" << img_mat.ncol()
+         << " (" << img_mat.nrow()*img_mat.ncol() << " pixels)" << endl;
 
 
     /**********************************/
@@ -220,7 +225,7 @@ int main(int argc, char* argv[]) {
     // Use encoding tree to build a codeword dictionary
     map<string, string> code = get_code_map(tree, pixel_values);
     huffman::print_code(pixel_values, code, pixel_val_freqs);
-    // huffman::print_tree(tree, code, pixel_val_freqs); // for debugging
+    huffman::print_tree(tree, code); // for debugging
 
     // Assess encoding efficiency
     double basic_length = basic_code_length(pixel_val_freqs);

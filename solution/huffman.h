@@ -83,7 +83,7 @@ namespace huffman {
         {
             total_freq += it->second;
         }
-        cout << "Frequency sum: " << total_freq;
+        cout << "Frequency sum: " << total_freq << endl;
         //------------------
         cout << endl;
     }
