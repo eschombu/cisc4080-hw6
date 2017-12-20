@@ -76,12 +76,20 @@ namespace huffman {
             cout << it->first << " (f=" << frequencies[it->first]
                 << "): " << it->second << endl;
         }
+        //------------------
+        double total_freq = 0;
+        for (map<string, double>::iterator it=frequencies.begin();
+             it != frequencies.end(); it++)
+        {
+            total_freq += it->second;
+        }
+        cout << "Frequency sum: " << total_freq;
+        //------------------
         cout << endl;
     }
 
     void print_tree(map<string, TreeNode> & tree,
-                    map<string, string> & code,
-                    map<string, double> & frequencies) {
+                    map<string, string> & code) {
         /* Print out the binary tree used to generate the prefix-free encoding
         of the alphabet, in addition to the frequencies of the letters, which
         lie at the leaves of the tree. */
@@ -98,7 +106,7 @@ namespace huffman {
                 if (tree[node].leaf) {
                     cout << "=" << code[node];
                 }
-                cout << " (" << frequencies[node] << "), ";
+                cout << " (" << tree[node].freq << "), ";
                 if (!tree[node].leaf) {
                     next_level.push_back(tree[node].left);
                     next_level.push_back(tree[node].right);
